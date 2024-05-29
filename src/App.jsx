@@ -26,6 +26,11 @@ import MentalHealthArticles from "./pages/MentalHealthArticles.jsx";
 import MentalHealthVideos from "./pages/MentalHealthVideos.jsx";
 import MentalHealthExercises from "./pages/MentalHealthExercises.jsx";
 import StressManagement from "./pages/StressManagement.jsx";
+import SkillBuilding from "./pages/SkillBuilding.jsx";
+import Courses from "./pages/Courses.jsx";
+import Workshops from "./pages/Workshops.jsx";
+import LearningPaths from "./pages/LearningPaths.jsx";
+import Mentorship from "./pages/Mentorship.jsx";
 
 function App() {
   return (
@@ -57,6 +62,11 @@ function App() {
         <Route exact path="/therapy-and-wellness/videos" element={<MentalHealthVideos />} />
         <Route exact path="/therapy-and-wellness/exercises" element={<MentalHealthExercises />} />
         <Route exact path="/therapy-and-wellness/stress-management" element={<StressManagement />} />
+        <Route exact path="/skill-building" element={<SkillBuilding />} />
+        <Route exact path="/skill-building/courses" element={<Courses />} />
+        <Route exact path="/skill-building/workshops" element={<Workshops />} />
+        <Route exact path="/skill-building/learning-paths" element={<LearningPaths />} />
+        <Route exact path="/skill-building/mentorship" element={<Mentorship />} />
       </Routes>
     </Router>
   );

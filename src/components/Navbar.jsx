@@ -25,6 +25,9 @@ const Navbar = () => (
         <Link as={RouterLink} to="/therapy-and-wellness" color="white" mr={4}>
           Therapy & Wellness
         </Link>
+        <Link as={RouterLink} to="/skill-building" color="white" mr={4}>
+          Skill Building
+        </Link>
         <Button as={RouterLink} to="/login" colorScheme="teal" variant="outline">
           Login
         </Button>
