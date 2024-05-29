@@ -20,6 +20,12 @@ import COBRA from "./pages/COBRA.jsx";
 import HealthInsuranceMarketplaces from "./pages/HealthInsuranceMarketplaces.jsx";
 import EnrollmentAssistance from "./pages/EnrollmentAssistance.jsx";
 import MentalHealthSupport from "./pages/MentalHealthSupport.jsx";
+import TherapyAndWellness from "./pages/TherapyAndWellness.jsx";
+import OnlineCounseling from "./pages/OnlineCounseling.jsx";
+import MentalHealthArticles from "./pages/MentalHealthArticles.jsx";
+import MentalHealthVideos from "./pages/MentalHealthVideos.jsx";
+import MentalHealthExercises from "./pages/MentalHealthExercises.jsx";
+import StressManagement from "./pages/StressManagement.jsx";
 
 function App() {
   return (
@@ -45,6 +51,12 @@ function App() {
         <Route exact path="/resources/health-insurance-marketplaces" element={<HealthInsuranceMarketplaces />} />
         <Route exact path="/healthcare/enrollment-assistance" element={<EnrollmentAssistance />} />
         <Route exact path="/healthcare/mental-health-support" element={<MentalHealthSupport />} />
+        <Route exact path="/therapy-and-wellness" element={<TherapyAndWellness />} />
+        <Route exact path="/therapy-and-wellness/online-counseling" element={<OnlineCounseling />} />
+        <Route exact path="/therapy-and-wellness/articles" element={<MentalHealthArticles />} />
+        <Route exact path="/therapy-and-wellness/videos" element={<MentalHealthVideos />} />
+        <Route exact path="/therapy-and-wellness/exercises" element={<MentalHealthExercises />} />
+        <Route exact path="/therapy-and-wellness/stress-management" element={<StressManagement />} />
       </Routes>
     </Router>
   );
