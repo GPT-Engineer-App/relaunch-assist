@@ -15,6 +15,11 @@ import FinancialPlanning from "./pages/FinancialPlanning.jsx";
 import Management401k from "./pages/401kManagement.jsx";
 import FinancialAdvice from "./pages/FinancialAdvice.jsx";
 import ConnectAdvisors from "./pages/ConnectAdvisors.jsx";
+import HealthcareNavigation from "./pages/HealthcareNavigation.jsx";
+import COBRA from "./pages/COBRA.jsx";
+import HealthInsuranceMarketplaces from "./pages/HealthInsuranceMarketplaces.jsx";
+import EnrollmentAssistance from "./pages/EnrollmentAssistance.jsx";
+import MentalHealthSupport from "./pages/MentalHealthSupport.jsx";
 
 function App() {
   return (
@@ -35,6 +40,11 @@ function App() {
         <Route exact path="/financial-management/401k-management" element={<Management401k />} />
         <Route exact path="/financial-management/advice" element={<FinancialAdvice />} />
         <Route exact path="/financial-management/connect-advisors" element={<ConnectAdvisors />} />
+        <Route exact path="/healthcare-navigation" element={<HealthcareNavigation />} />
+        <Route exact path="/resources/cobra" element={<COBRA />} />
+        <Route exact path="/resources/health-insurance-marketplaces" element={<HealthInsuranceMarketplaces />} />
+        <Route exact path="/healthcare/enrollment-assistance" element={<EnrollmentAssistance />} />
+        <Route exact path="/healthcare/mental-health-support" element={<MentalHealthSupport />} />
       </Routes>
     </Router>
   );
